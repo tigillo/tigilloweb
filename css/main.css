@@ -790,8 +790,7 @@ button:focus {
 }
 
 #clients .client-item-wrapper img {
-  width: 70%;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 #clients #clients-scroller img:hover {
