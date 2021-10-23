@@ -1,0 +1,50 @@
+---
+title: "Art Nouveau"
+layout: default
+permalink: "/art-nouveau.html"
+active: "art-nouveau"
+---
+<section class="mt-4 mb-5">
+    
+    <div class="container mb-1">
+        <h1 class="font-weight-bold title">Art Nouveau</h1>    
+        <div class="row">
+        {% include menu-categories.html %}
+        </div>
+    </div>
+
+
+<div class="container-fluid">
+    <div class="card-columns">
+    {% for category in site.categories %}
+
+
+    {% if category[0] != 'art-nouveau' %}
+    </div> 
+    
+    <h3 class="mt-4 display-4" id="{{ category[0] | downcase }}"><small class="text-muted">#</small>           
+        {% assign categoryname = category[0] %}
+        {% for sitecategory in site.data.categories %}{% if category[0] == sitecategory.slug %}{% assign categoryname = sitecategory.name %}{% endif %}{% endfor %}
+        {{categoryname}}
+        {% assign categoryname = nil %}
+    </h3><hr>
+    
+    <div class="card-columns">
+
+        {% assign pages_list = category[1] %}
+        {% for post in pages_list %}
+          {% if post.title != null %}
+              {% if group == null or group == post.group %}
+                {% include card-post.html %}
+              {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+
+    {% endif %}
+    {% endfor %}
+    </div>
+</div>
+    
+</section>
