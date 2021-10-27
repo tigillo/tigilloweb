@@ -1,10 +1,3 @@
-/*
-Theme Name:       Proton - Bootstrap 4 Template
-Author:           UIdeck
-Author URI:       http://uideck.com
-Text Domain:      UIdeck
-Domain Path:      /languages/
-*/
 /*TABLE OF CONTENT */
 /* CORE: */
 /* ____Bootstrap */
@@ -25,7 +18,7 @@ Domain Path:      /languages/
 /* ____Download */
 /* ____Subscribe */
 /* ____Pricing-table */
-/* ____Blog */
+/* ____Insights */
 /* ____Contact*/
 /* ==========================================================================
    IMPORT GOOGLE FONTS
@@ -60,7 +53,7 @@ a:hover, a:focus {
 }
 
 a {
-  color: #3c9cfd;
+  color: #4747ff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -102,7 +95,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .bg-defult {
-  background: #3c9cfd !important;
+  background: #4747ff !important;
 }
 
 /* ==========================================================================
@@ -124,15 +117,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin-bottom: 20px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  background-color: #2dfbff;
-  background-image: -webkit-linear-gradient(bottom right, #3c96ff, #2dfbff);
-  background-image: -o-linear-gradient(bottom right, #3c96ff, #2dfbff);
-  background-image: linear-gradient(to top left, #3c96ff, #2dfbff);
-  position: relative;
 }
 
 /* ==========================================================================
@@ -162,9 +146,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-common {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -webkit-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -ms-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
   position: relative;
   z-index: 1;
 }
@@ -201,8 +185,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   border-width: 2px;
   cursor: pointer;
   background-color: transparent;
-  border-color: #3c9cfd;
-  color: #3c9cfd;
+  border-color: #4747ff;
+  color: #4747ff;
 }
 
 .btn-border:hover {
@@ -213,11 +197,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   cursor: pointer;
   background-color: #fff;
   border: 2px solid #fff;
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 .btn-border-filled:hover {
-  color: #3c9cfd;
+  color: #4747ff;
   background-color: #ffffff;
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
 }
@@ -229,7 +213,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-rm {
-  color: #3c9cfd;
+  color: #4747ff;
   padding: 10px 0;
   text-transform: capitalize;
   font-size: 16px;
@@ -249,14 +233,14 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .btn-trial:hover,
 .btn-trial:active,
 .btn-trial:focus {
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 .btn-apple {
   border-width: 2px;
-  border-color: #3c96ff;
+  border-color: #4747ff;
   border-style: solid;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #4747ff 0%, #2dfbff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
@@ -266,7 +250,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-apple i {
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #4747ff 0%, #2dfbff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -274,7 +258,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .btn-apple:hover,
 .btn-apple:active,
 .btn-apple:focus {
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%) !important;
+  background: linear-gradient(to right, #4747ff 0%, #2dfbff 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
@@ -286,7 +270,7 @@ button:focus {
 .btn-border-fill {
   background: #fff;
   border-color: #fff;
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 .btn-subtitle {
@@ -454,7 +438,7 @@ button:focus {
   height: 100%;
   border-radius: 100%;
   border: 7px solid transparent;
-  border-top-color: #3c9cfd;
+  border-top-color: #4747ff;
 }
 
 #loader-1:before {
@@ -500,7 +484,7 @@ button:focus {
 }
 
 .back-to-top i {
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #4747ff 0%, #2dfbff 100%);
   -webkit-background-clip: text;
   font-size: 20px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -530,11 +514,11 @@ button:focus {
 
 .menu-bg .menu-button:hover {
   cursor: pointer;
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 .menu-bg .logo-menu a {
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 .menu-bg .navbar-nav .nav-link {
@@ -619,7 +603,7 @@ button:focus {
    Hero Area
    ========================================================================== */
 .hero-area {
-  background: #3c96ff;
+  background: #4747ff;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -632,9 +616,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -webkit-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -ms-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
 }
 
 .hero-area .contents {
@@ -691,9 +675,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -webkit-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -ms-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
 }
 
 .hero-area-2 .contents {
@@ -830,9 +814,9 @@ button:focus {
    Video promo Style
    ========================================================================== */
 .video-promo {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -webkit-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -ms-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
 }
 
 .video-promo .video-promo-content {
@@ -847,7 +831,7 @@ button:focus {
   line-height: 80px;
   text-align: center;
   border: 3px solid #fff;
-  color: #3c9cfd;
+  color: #4747ff;
   border-radius: 50%;
   display: inline-block;
   font-size: 26px;
@@ -908,12 +892,22 @@ button:focus {
    Offer area
    ========================================================================== */
 .offer-area {
-  background: #f6fbfd;
+  background: #4747ff;
 }
 
 .offer-area h2 {
+  color: #fff;
   font-size: 36px;
   margin-bottom: 30px;
+}
+
+.offer-area .btn-border {
+  border-color: #fff;
+  color: #fff;
+}
+
+.offer-area .btn-border:hover {
+    box-shadow: 0px 8px 9px 0px rgb(0 0 0 / 17%);
 }
 
 /* Services Item */
@@ -934,7 +928,7 @@ button:focus {
 .services-item .icon i {
   font-size: 42px;
   line-height: 60px;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #4747ff 0%, #2dfbff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
@@ -969,7 +963,7 @@ button:focus {
 
 .single-feature i {
   font-size: 42px;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #4747ff 0%, #2dfbff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -1051,15 +1045,15 @@ button:focus {
 
 #features .nav-tabs .nav-item.show .nav-link,
 #features .nav-tabs .nav-link.active {
-  border-bottom: 1px solid #3c9cfd;
+  border-bottom: 1px solid #4747ff;
   color: #191c1e;
 }
 
 #features .nav-tabs .nav-item.show .nav-link i,
 #features .nav-tabs .nav-link.active i {
-  background: -webkit-linear-gradient(left, #3c96ff 0%, #2dfbff 100%);
-  background: -o-linear-gradient(left, #3c96ff 0%, #2dfbff 100%);
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: -webkit-linear-gradient(left, #4747ff 0%, #2dfbff 100%);
+  background: -o-linear-gradient(left, #4747ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #4747ff 0%, #2dfbff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1141,9 +1135,9 @@ button:focus {
   border-radius: 50px;
   text-align: center;
   position: relative;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -webkit-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -ms-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
   z-index: 1;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -1217,9 +1211,9 @@ button:focus {
   width: 40px;
   height: 40px;
   display: block !important;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%) !important;
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%) !important;
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%) !important;
+  background-image: -moz-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%) !important;
+  background-image: -webkit-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%) !important;
+  background-image: -ms-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%) !important;
   text-align: center;
   display: inline-block;
   opacity: 1 !important;
@@ -1299,9 +1293,9 @@ button:focus {
 
 .single-team .social-list {
   position: absolute;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -webkit-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -ms-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
   border-top-right-radius: 30px;
   bottom: 0;
   left: -40px;
@@ -1408,7 +1402,7 @@ button:focus {
 }
 
 .testimonial-item .content-inner .author-info h2 a:hover {
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 .owl-pagination {
@@ -1441,7 +1435,7 @@ button:focus {
 }
 
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-  background: #3c9cfd;
+  background: #4747ff;
 }
 
 /* ==========================================================================
@@ -1502,8 +1496,8 @@ button:focus {
   -o-transition: background-image 0.3s  ease-out;
   transition: background-image 0.3s  ease-out;
   background-image: -moz-linear-gradient(0deg, #2dfbff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -webkit-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -ms-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
   box-shadow: 0px 0px 43px 0px rgba(131, 131, 131, 0.38);
 }
 
@@ -1526,7 +1520,7 @@ button:focus {
 .pricing-active .btn-border {
   background: #fff;
   border-color: #fff;
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 /* ==========================================================================
@@ -1570,9 +1564,7 @@ button:focus {
 
 .controls a:hover,
 .controls .active {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-color: #4747ff;
   color: #fff !important;
 }
 
@@ -1626,7 +1618,7 @@ button:focus {
 }
 
 .shot-item .single-content .zoom-icon a {
-  color: #3c9cfd;
+  color: #4747ff;
   background: #fff;
   width: 48px;
   display: inline-block;
@@ -1762,7 +1754,7 @@ button:focus {
   width: 48px;
   line-height: 48px;
   height: 48px;
-  color: #3c9cfd;
+  color: #4747ff;
   font-size: 24px;
   display: inline-block;
   background: #fff;
@@ -1845,13 +1837,13 @@ button:focus {
 .left, .right {
   cursor: pointer;
   font-size: 30px;
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 /* ==========================================================================
-   Blog 
+   Insights 
    ========================================================================== */
-#blog .blog-item-wrapper {
+#insights .blog-item-wrapper {
   background: #fff;
   border-radius: 5px;
   margin: 15px 0;
@@ -1861,61 +1853,61 @@ button:focus {
   transition: transform 0.2s linear, box-shadow 0.2s linear;
 }
 
-#blog .blog-item-wrapper:hover {
+#insights .blog-item-wrapper:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 
-#blog .blog-item-wrapper:hover .blog-item-img:before {
+#insights .blog-item-wrapper:hover .blog-item-img:before {
   opacity: 1;
 }
 
-#blog .blog-item-img {
+#insights .blog-item-img {
   position: relative;
 }
 
-#blog .blog-item-img img {
+#insights .blog-item-img img {
   width: 100%;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
 
-#blog .blog-item-img .author-img {
+#insights .blog-item-img .author-img {
   position: absolute;
   bottom: -30px;
   right: 30px;
 }
 
-#blog .blog-item-text {
+#insights .blog-item-text {
   padding: 60px 20px 30px;
 }
 
-#blog .blog-item-text h3 {
+#insights .blog-item-text h3 {
   line-height: 26px;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-#blog .blog-item-text h3 a {
+#insights .blog-item-text h3 a {
   color: #191c1e;
 }
 
-#blog .blog-item-text h3 a:hover {
-  color: #3c9cfd;
+#insights .blog-item-text h3 a:hover {
+  color: #4747ff;
 }
 
-#blog .author .name a {
+#insights .author .name a {
   color: #a0a6ad;
   font-size: 14px;
   font-weight: 400;
 }
 
-#blog .author .name a:hover {
-  color: #3c9cfd;
+#insights .author .name a:hover {
+  color: #4747ff;
 }
 
-#blog .author .date {
+#insights .author .date {
   font-size: 14px;
 }
 
@@ -1937,7 +1929,7 @@ button:focus {
 }
 
 .form-control:focus {
-  border: 1px solid #3c9cfd;
+  border: 1px solid #4747ff;
   outline: none;
   box-shadow: none;
 }
@@ -1957,7 +1949,7 @@ textarea {
 
 .contact-info i {
   font-size: 20px;
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 .contact-info h5 {
@@ -2014,9 +2006,7 @@ textarea {
   Subscribe Style
   ========================================================================== */
 #subscribe {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-color: #4747ff;
   position: relative;
 }
 
@@ -2075,7 +2065,7 @@ textarea {
   width: 156px;
   font-weight: 600;
   background: #fff;
-  color: #3c96ff;
+  color: #4747ff;
   height: 52px;
   text-align: center;
   position: absolute;
@@ -2105,7 +2095,7 @@ textarea {
 
 #subscribe .sub-item-box .icon-box i {
   font-size: 30px;
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 #subscribe .sub-item-box .text-box {
@@ -2170,9 +2160,7 @@ textarea {
 }
 
 footer .footer-Content {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-color: #4747ff;
   padding: 60px 0 0px;
   color: #546E7A;
 }
@@ -2180,6 +2168,15 @@ footer .footer-Content {
 footer .footer-Content h2 {
   color: #ffffff;
   font-size: 30px;
+}
+
+footer .footer-Content a {
+  color: #ffffff;
+}
+
+
+footer .footer-Content a:hover {
+  color: #fece00;
 }
 
 .textwidget {
@@ -2271,7 +2268,7 @@ footer .menu li a:hover {
 }
 
 .copyright .nav-inline .nav-link:hover {
-  color: #3c9cfd;
+  color: #4747ff;
 }
 
 /* ==========================================================================
@@ -2343,9 +2340,9 @@ footer .menu li a:hover {
 }
 
 #counter .bg-color-1 {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -webkit-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-image: -ms-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
 }
 
 #counter .bg-color-2 {
@@ -2367,8 +2364,8 @@ footer .menu li a:hover {
 }
 
 .btn-subtitle {
-  color: #191c1e;
-  background: #dbecff;
+  color: #4747ff;
+  background: #fece00;
   text-align: center;
   border-radius: 30px;
   padding: 6px 30px;

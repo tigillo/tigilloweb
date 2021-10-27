@@ -193,3 +193,13 @@
 
 }(jQuery));
 
+/* attach a submit handler to the form */
+$("#subscribe-news").submit(function(event) {
+  $('#subscribe-result').text('Thank you for subscribing!');
+});
+
+/* attach a submit handler to the form */
+$("#contactForm").submit(function(event) {
+  $('#contact-result').text('Thank you for submiting your response!');
+});
+
