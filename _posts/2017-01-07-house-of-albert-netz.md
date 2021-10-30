@@ -1,7 +1,6 @@
 ---
 title:  "House of Albert Netz, Szczecin"
-metadate: "hide"
-categories: [ art-nouveau, Poland, Szczecin ]
+categories: [ insights, Poland, Szczecin ]
 image: "/assets/images/szczecin/wojciecha_1_04.jpg"
 ---
 This Art Nouveau style building constructed in 1902 by architect Friedrich Liebergesell located at Świętego Wojciecha 1.

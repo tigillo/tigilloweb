@@ -1,7 +1,6 @@
 ---
 title:  "Aleja Piastów 13, Szczecin"
-metadate: "hide"
-categories: [ art-nouveau, Poland, Szczecin ]
+categories: [ insights, Poland, Szczecin ]
 image: "/assets/images/szczecin/piastow_13_2.jpg"
 ---
 Architect: Friedrich Liebergesell

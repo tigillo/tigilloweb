@@ -687,6 +687,7 @@ button:focus {
 
 .hero-area .intro-img {
   padding: 148px 0 0px;
+  max-height: 700px;
 }
 
 .hero-area .intro-img img {
@@ -710,9 +711,7 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #4747ff 0%, #2dfbff 100%);
+  background-color: #ec6165;
 }
 
 .hero-area-2 .contents {
@@ -745,13 +744,14 @@ button:focus {
 }
 
 .hero-area-2 .intro-img {
-  padding: 180px 0 0px;
+  padding: 180px 0 60px;
 }
 
 .hero-area-2 .intro-img img {
   display: block;
   height: auto;
   max-width: 100%;
+  max-height: 365px;
 }
 
 /* ==========================================================================

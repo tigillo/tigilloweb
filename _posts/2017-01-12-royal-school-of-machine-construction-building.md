@@ -1,7 +1,6 @@
 ---
 title:  "Royal School of Machine Construction Building, Szczecin "
-metadate: "hide"
-categories: [ art-nouveau, Poland, Szczecin ]
+categories: [ insights, Poland, Szczecin ]
 image: "/assets/images/szczecin/sikorskiego37_1.jpg"
 ---
 The building on 37 Sikorskiego Street was built in eclectic forms referring to Romanism and very thinly built into the late Gothic. However, historical forms were imagined and interpreted very freely. The architectural influence of Art Nouveau can be seen as an architectural decoration. In the articulation of the facade by the street, the structure of the building in the form of pillars (piles) and stern deposits (sectional arcs) is quite unusual for representative buildings, which were then built in late typical forms. Probably the technical schools here are referred to in this way. Also in the architectural detail are motifs that refer to the function of the building.
