@@ -1,6 +1,7 @@
 # Site
 name: 'Tigillo Tech Startup Consultancy'
 shortname: 'tigillo'
+companyname: 'Tigillo Consultancy Ltd'
 description: 'We are a UK based tech starup consultancy providing software development services for Tech Startups and Tech Scaleups worldwide. As a Tech Startup Consulting company we connect technology and domain, helping tech startups to build their core software technology and with the production record DevOps Consulting experience, we help our clients to scale with flexibility on the cloud environments and create seamless application development experience.'
 url: "https://tigillo.com"
 logo: 'assets/images/tigillo-tech-startup-consultancy-logo.svg'

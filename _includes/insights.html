@@ -1,0 +1,43 @@
+
+    <section id="insights" class="section">
+
+      <div class="container">
+        <div class="section-header">
+          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Insights</p>
+          <h2 class="section-title">Recent News</h2>
+        </div>
+        <div class="row">
+
+        {% assign maxPosts = 3 %}
+        {% assign counter = 0 %}
+        {% for post in site.posts %}
+          {% assign counter = counter | plus: 1 %}
+          {% if maxPosts >= counter %}
+
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="single-post.html">
+                  <img src="{{post.image}}" alt="">
+                </a>
+              </div>
+              <div class="blog-item-text">
+                <h3><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h3>
+                <div class="author">
+                  <span class="date float-right">{{ page.date | date: '%B %d, %Y' }} </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+          {% else %}
+            {% break %}
+          {% endif %}
+
+        {% endfor %}
+
+        </div>
+      </div>
+    </section>

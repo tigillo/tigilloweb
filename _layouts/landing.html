@@ -30,8 +30,8 @@
   </head>
 
   <body>
-    <header id="home" class="fixed-header">
-      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar menu-bg">
+    <header id="home">
+      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
           <a href="/" class="navbar-brand"><img src="{{site.url}}/{{site.logo}}" alt="{{site.name}}"> {{site.shortname}}</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,22 +40,18 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link page-scroll{% if page.active == "home" %} active{% endif %}" href="{{site.url}}/">Home</a>
+                <a class="nav-link page-scroll" href="#home">Home</a>
+              </li>
+              {% for item in page.nav %}  
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#{{item.id}}">{{item.name}}</a>
+              </li>
+              {% endfor %} 
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#insights">Insights</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll{% if page.active == "about" %} active{% endif %}" href="{{site.url}}/about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll{% if page.active == "services" %} active{% endif %}" href="{{site.url}}/services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll{% if page.active == "clients" %} active{% endif %}" href="{{site.url}}/clients.html">Clients</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll{% if page.active == "insights" %} active{% endif %}" href="{{site.url}}/insights.html">Insights</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll{% if page.active == "contact" %} active{% endif %}" href="{{site.url}}/contact.html">Contact</a>
+                <a class="nav-link page-scroll" href="#map-area">Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="tel:020-3151-7051"><i class="icon ion-md-call"></i> 020 3151 7051</a>
@@ -64,19 +60,14 @@
           </div>
         </div>
       </nav>
+      {% include carousel.html %}
     </header>
 
-    <section class="section page">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h3>{{ page.title }}</h3>
-            {{ content }}
-          </div>
-        </div>
-      </div>
-    </section>
-    
+    {{ content }}
+
+    {% include subscribe.html %}
+    {% include insights.html %}
+    {% include contact.html %}
     {% include footer.html %}
 
     <a href="#" class="back-to-top">
@@ -100,6 +91,7 @@
     <script src="{{site.url}}/assets/js/nivo-lightbox.js"></script>
     <script src="{{site.url}}/assets/js/jquery.magnific-popup.min.js"></script>
     <script src="{{site.url}}/assets/js/waypoints.min.js"></script>
+    <script src="{{site.url}}/assets/js/sticky-nav.js"></script>
     <script src="{{site.url}}/assets/js/main.js"></script>
     
     {% include gtag.html %}

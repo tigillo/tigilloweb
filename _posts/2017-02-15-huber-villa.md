@@ -1,7 +1,7 @@
 ---
 title:  "Huber Villa, Istanbul"
 metadate: "hide"
-categories: [ art-nouveau, Turkey, Istanbul ]
+categories: [ Insights, Start-Up, Technology ]
 image: "/assets/images/istanbul/huber-villa-1.jpg"
 ---
 Unfortunately, the building's architect and construction date are not known exactly. However, it is known that the Italian architect Raimondo D’Aranco left his signature on the building with some additions and ornaments to the building during his stay in Istanbul. The touches of D’Aranco in Huber Villa helped the building achieve its unique appearance today. The Italian architect, famous for his Art Nouveau building designs, worked as a palace architect for 16 years during the reign of Abdulhamid II.
