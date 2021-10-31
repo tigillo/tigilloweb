@@ -169,6 +169,8 @@ $("#contactForm").submit(function(event) {
   let message=$("#message")[0].value;
   if(message.includes("<") || message.includes(">")) {
     event.preventDefault();
-  };
-  $('#contact-result').text('Thank you for submiting your response!');
+    $('#contact-result').text('Sorry, special characters not allowed!');
+  } else {
+    $('#contact-result').text('Thank you for submiting your response!');
+  }
 });
