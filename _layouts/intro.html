@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#6BD6DE" />
+
+    <meta name="twitter:image:src" content="{{site.url}}/{{page.image}}" />
+    <meta name="twitter:site" content="@tigillocom" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{page.title}}" />
+    <meta name="twitter:description" content="{{page.description}}" />
+
+    <title>{{page.title}} | {{site.name}}</title>
+    {% seo %}
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/{{site.favicon}}">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/line-icons.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/owl.theme.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/animate.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/nivo-lightbox.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/main.css">    
+    <link rel="stylesheet" href="{{site.url}}/assets/css/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+
+  </head>
+
+  <body>
+    <header id="home" class="hero-area-2">
+      <div class="overlay"></div>
+      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+        <div class="container">
+          <a href="/" class="navbar-brand"><img src="{{site.url}}/{{site.logo}}" alt="{{site.name}}"> {{site.shortname}}</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link page-scroll{% if page.active == "home" %} active{% endif %}" href="{{site.url}}/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll{% if page.active == "about" %} active{% endif %}" href="{{site.url}}/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll{% if page.active == "services" %} active{% endif %}" href="{{site.url}}/services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll{% if page.active == "clients" %} active{% endif %}" href="{{site.url}}/clients.html">Clients</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll{% if page.active == "insights" or page.categories[0] == "insights" %} active{% endif %}" href="{{site.url}}/insights.html">Insights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll{% if page.active == "contact" %} active{% endif %}" href="{{site.url}}/contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="tel:+44-20-3151-7051"><i class="icon ion-md-call"></i> 020 3151 7051</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row space-100">
+          <div class="col-lg-7 col-md-12 col-xs-12">
+            <div class="contents">
+              <h2 class="head-title">{{page.title}}</h2>
+              <p>{{page.description}}</p>
+              <p><i>{% unless page.metadate == "hide" %} 
+                            Posted on {{ page.date | date: '%B %d, %Y' }} 
+                        {% endunless %}
+                        {% if page.author %}
+                             by <strong>{{page.author | capitalize}}</strong>
+                        {% endif %}
+              </i></p>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 col-xs-12">
+            <div class="intro-img">
+              <img src="{{page.image}}" alt="{{page.title}}">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    <a href="#" class="back-to-top">
+      <i class="icon ion-md-arrow-dropup"></i>
+    </a>
+
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+
+    <script src="{{site.url}}/assets/js/jquery-min.js"></script>
+    <script src="{{site.url}}/assets/js/popper.min.js"></script>
+    <script src="{{site.url}}/assets/js/bootstrap.min.js"></script>
+    <script src="{{site.url}}/assets/js/owl.carousel.js"></script>
+    <script src="{{site.url}}/assets/js/jquery.mixitup.js"></script>
+    <script src="{{site.url}}/assets/js/jquery.nav.js"></script>
+    <script src="{{site.url}}/assets/js/scrolling-nav.js"></script>
+    <script src="{{site.url}}/assets/js/jquery.easing.min.js"></script>
+    <script src="{{site.url}}/assets/js/wow.js"></script>
+    <script src="{{site.url}}/assets/js/jquery.counterup.min.js"></script>
+    <script src="{{site.url}}/assets/js/nivo-lightbox.js"></script>
+    <script src="{{site.url}}/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{site.url}}/assets/js/waypoints.min.js"></script>
+    <script src="{{site.url}}/assets/js/sticky-nav.js"></script>
+    <script src="{{site.url}}/assets/js/main.js"></script>
+
+    {% include addthis-widget.html %}
+    {% include cookie-consent.html %}
+    {% include gtag.html %}
+
+  </body>
+</html>

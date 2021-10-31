@@ -1,0 +1,20 @@
+
+    <section id="insights" class="section">
+
+      <div class="container">
+        <div class="section-header">
+          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Insights</p>
+          <h2 class="section-title">Recent News</h2>
+        </div>
+        <div class="row">
+
+        {% for post in site.posts limit:3 %}
+            {% include card-post.html %}
+        {% endfor %}
+
+        </div>
+      </div>
+      <div class="more text-center">
+        <a href="{{site.url}}/insights.html" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">More Posts</a>
+      </div>
+    </section>

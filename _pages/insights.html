@@ -1,0 +1,44 @@
+---
+title: "Insights"
+permalink: "/insights.html"
+active: "insights"
+layout: "plain"
+---
+    <section class="sub-section page">
+      <div class="container">
+        <div class="row">
+          <h3>{{ page.title }}</h3>
+        </div>
+        <div class="row">
+          {% include menu-categories.html %}
+        </div>
+      </div>
+    </section>
+    <section id="insights">
+      <div class="container">
+        {% for category in site.categories %}
+        {% if category[0] != 'insights' %} 
+        <div class="row sub-section" id="{{ category[0] | downcase }}">             
+          <h4><small class="text-muted">#</small>           
+            {% assign categoryname = category[0] %}
+            {% for sitecategory in site.data.categories %}{% if category[0] == sitecategory.slug %}{% assign categoryname = sitecategory.name %}{% endif %}{% endfor %}
+            {{categoryname}}
+            {% assign categoryname = nil %}
+          </h4><hr>
+        </div>
+        <div class="row">
+          {% assign pages_list = category[1] %}
+          {% for post in pages_list %}
+            {% if post.title != null %}
+                {% if group == null or group == post.group %}
+                  {% include card-post.html %}
+                {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% assign pages_list = nil %}
+          {% assign group = nil %}
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </section>

@@ -1,0 +1,15 @@
+<!-- Don't edit anything here, categories are dynamically generated -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white pl-2 pr-2">
+    <ul class="navbar-nav categories">
+    {% for category in site.categories %}
+      {% if category[0] != 'insights' %}
+      <li class="nav-item"><a class="btn-subtitle wow animated page-scroll" href="{{site.url}}/insights.html#{{ category[0] | downcase }}">
+        {% assign categoryname = category[0] %}
+        {% for sitecategory in site.data.categories %}{% if category[0] == sitecategory.slug %}{% assign categoryname = sitecategory.name %}{% endif %}{% endfor %}
+        {{categoryname | capitalize}}({{ category[1].size }})
+        {% assign categoryname = nil %}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>  
+  </nav>
+

@@ -1,0 +1,18 @@
+---
+layout: page
+title: Oh no, bad luck!
+permalink: /404.html
+---
+    <p>We couldn't find that page, it has been moved or deleted. Explore below categories instead.</p>
+    <section class="section">
+      <h4>Explore Categories</h4>
+      {% include menu-categories.html %}
+    </section>
+    <section id="insights">
+      <h4>Recent News</h4>
+      <div class="row">
+      {% for post in site.posts limit:20 %}
+          {% include card-post.html %}
+      {% endfor %}
+      </div>
+    </section>
