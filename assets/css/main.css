@@ -41,11 +41,11 @@ html {
 }
 
 p {
-  font-size: 14px;
-  color: #a0a6ad;
+  font-size: 16px;
+  color: #6d737a;
   line-height: 26px;
   font-family: 'Roboto', sans-serif;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 a:hover, a:focus {
@@ -132,6 +132,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .page {
   margin-top: 30px;
 }
+
+.more {
+  padding: 50px 0 0 0;
+}
 /* ==========================================================================
    Section Title
    ========================================================================== */
@@ -153,6 +157,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-weight: 600;
 }
 
+.sub-section {
+  padding: 80px 0 0;
+}
 /* ==========================================================================
    Buttons
    ========================================================================== */
@@ -744,7 +751,7 @@ button:focus {
 }
 
 .hero-area-2 .intro-img {
-  padding: 180px 0 60px;
+  padding: 180px 0 30px;
 }
 
 .hero-area-2 .intro-img img {
@@ -1011,6 +1018,10 @@ button:focus {
   margin-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;
+}
+
+.single-feature p {
+  font-size: 14px;
 }
 
 .single-feature:hover {
@@ -1751,19 +1762,19 @@ button:focus {
 }
 
 #carousel-area .carousel-1 {
-  background: url('/assets/images/slider/rocket-launch-2.svg');
+  background: url('/assets/images/slider/launch-your-digital-business.svg');
   height: 700px;
   background-position: left;
 }
 
 #carousel-area .carousel-2 {
-  background: url('/assets/images/slider/team.svg');
+  background: url('/assets/images/slider/software-development-team-outsourcing.svg');
   height: 700px;
   background-position: right;
 }
 
 #carousel-area .carousel-3 {
-  background: url('/assets/images/slider/develop.svg');
+  background: url('/assets/images/slider/bespoke-software-development.svg');
   height: 700px;
   background-position: left;
 }
@@ -1943,6 +1954,9 @@ button:focus {
   color: #4747ff;
 }
 
+#insights .author {
+  min-height: 21px;
+}
 #insights .author .name a {
   color: #a0a6ad;
   font-size: 14px;
@@ -2419,4 +2433,32 @@ footer .menu li a:hover {
   font-weight: 700;
   margin-bottom: 20px;
   font-size: 14px;
+}
+
+.page-navigation a {
+    position: fixed;
+    top: 47%;
+    color: #fece00;
+    text-align: center;
+    font-size:12px;
+}
+.page-navigation a i {
+    font-size:40px;
+    width:60px;
+    height:60px;
+    line-height:60px;
+    
+}
+.page-navigation a:hover {
+    color:#4747ff;
+}
+a.prev {    
+    left: 60px;    
+}
+a.next {
+    right: 60px;
+}
+
+.categories li {
+  padding-right: 20px;
 }

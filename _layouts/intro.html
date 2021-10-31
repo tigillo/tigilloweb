@@ -2,10 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="DevOps, SaaS, Software, Development, Test Automation">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="Grayrids">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#6BD6DE" />
 
     <meta name="twitter:image:src" content="{{site.url}}/{{page.image}}" />
     <meta name="twitter:site" content="@tigillocom" />
@@ -71,13 +69,13 @@
             <div class="contents">
               <h2 class="head-title">{{page.title}}</h2>
               <p>{{page.description}}</p>
-              <p> {% unless page.metadate == "hide" %} 
-                            {{ page.date | date: '%B %d, %Y' }} 
+              <p><i>{% unless page.metadate == "hide" %} 
+                            Posted on {{ page.date | date: '%B %d, %Y' }} 
                         {% endunless %}
                         {% if page.author %}
-                            , by {{page.author | capitalize}} 
+                             by <strong>{{page.author | capitalize}}</strong>
                         {% endif %}
-              </p>
+              </i></p>
             </div>
           </div>
           <div class="col-lg-5 col-md-12 col-xs-12">
@@ -116,9 +114,10 @@
     <script src="{{site.url}}/assets/js/waypoints.min.js"></script>
     <script src="{{site.url}}/assets/js/sticky-nav.js"></script>
     <script src="{{site.url}}/assets/js/main.js"></script>
-    
-    {% include gtag.html %}
+
+    {% include addthis-widget.html %}
     {% include cookie-consent.html %}
+    {% include gtag.html %}
 
   </body>
 </html>

@@ -1,23 +1,18 @@
 ---
 layout: page
-title: 404 - Page not found
+title: Oh no, bad luck!
 permalink: /404.html
 ---
-
-<section class="mt-4 mb-5">
-    <div class="container mb-4">
-        <h1 class="font-weight-bold title">Oh no, bad luck!</h1>
-        <p>We couldn't find that page, it has been moved or deleted. Try search or explore below categories instead.</p>
-    <h1 class="font-weight-bold title">Explore</h1>     
-        <div class="row">
-        {% include menu-categories.html %}
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="card-columns">  
-        {% for post in site.posts limit:20 %}
-                {% include card-post.html %}
-        {% endfor %}  
-        </div>  
-    </div>  
-</section>
+    <p>We couldn't find that page, it has been moved or deleted. Explore below categories instead.</p>
+    <section class="section">
+      <h4>Explore Categories</h4>
+      {% include menu-categories.html %}
+    </section>
+    <section id="insights">
+      <h4>Recent News</h4>
+      <div class="row">
+      {% for post in site.posts limit:20 %}
+          {% include card-post.html %}
+      {% endfor %}
+      </div>
+    </section>
