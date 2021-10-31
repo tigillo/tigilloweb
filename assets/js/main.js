@@ -165,8 +165,10 @@ $("#subscribe-news").submit(function(event) {
   $('#subscribe-result').text('Thank you for subscribing!');
 });
 
-/* attach a submit handler to the form */
 $("#contactForm").submit(function(event) {
+  let message=$("#message")[0].value;
+  if(message.includes("<") || message.includes(">")) {
+    event.preventDefault();
+  };
   $('#contact-result').text('Thank you for submiting your response!');
 });
-
