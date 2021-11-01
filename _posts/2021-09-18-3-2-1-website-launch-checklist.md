@@ -3,7 +3,7 @@ title: "3,2,1.. Website Launch Checklist"
 description: "Ready to launch your sparkling new startup website? Great! But before you do, run through this checklist to make sure it’s really ready."
 active: "insights"
 categories: [ insights, web ]
-image: "/assets/images/posts/web-site-launch-checklist.png"
+image: "assets/images/posts/web-site-launch-checklist.png"
 author: "alain"
 ---
 Ready to launch your sparkling new startup website? Great! But before you do, run through this checklist to make sure it’s really ready.

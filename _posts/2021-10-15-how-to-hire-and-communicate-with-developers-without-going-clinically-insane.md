@@ -3,7 +3,7 @@ title: "How To Hire & Communicate With Developers Without Going Clinically Insan
 description: "Developers Are From Mars, You Are From Venus."
 active: "insights"
 categories: [ insights, startup, hiring ]
-image: "/assets/images/posts/hiring-developers.png"
+image: "assets/images/posts/hiring-developers.png"
 author: "amanda"
 ---
 Web Developers Are From Mars, You Are From Venus

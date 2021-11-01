@@ -2,7 +2,7 @@
 title: "What You Should Know About Content Marketing?"
 description: "One of the most significant recent trends for startups and web businesses has been the explosion of content marketing. But how can giving away free content help you build a profitable business?"
 categories: [ insights, startup, marketing ]
-image: "/assets/images/posts/content-marketing.png"
+image: "assets/images/posts/content-marketing.png"
 author: "amanda"
 ---
 One of the most significant recent trends for startups and web businesses has been the explosion of content marketing. But how can giving away free content help you build a profitable business?

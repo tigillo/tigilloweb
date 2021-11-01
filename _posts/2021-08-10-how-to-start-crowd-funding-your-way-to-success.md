@@ -2,7 +2,7 @@
 title: "How to Start Crowd Funding Your Way to Success?"
 description: "From July 2012 to July 2021, a total of nearly six billion U.S. dollars had been pledged to projects on the Kickstarter crowdfunding platform."
 categories: [ insights, startup, funding ]
-image: "/assets/images/posts/crowd-funding.png"
+image: "assets/images/posts/crowd-funding.png"
 author: "matthew"
 ---
 From July 2012 to July 2021, a total of nearly six billion U.S. dollars had been pledged to projects on the Kickstarter crowdfunding platform. Would you like a piece of that action?

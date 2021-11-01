@@ -3,7 +3,7 @@ title: "7 Classic Online Business Mistakes And How To Avoid Them"
 description: "Knowing what not to do is as important as knowing what to do. Here are arguably the 7 worst ways to start a business. Avoid these and you’re already ahead of the pack."
 active: "insights"
 categories: [ insights, startup ]
-image: "/assets/images/posts/online-business-mistakes.png"
+image: "assets/images/posts/online-business-mistakes.png"
 author: "matthew"
 ---
 Knowing what not to do is as important as knowing what to do. Here are arguably the 7 worst ways to start a business. Avoid these and you’re already ahead of the pack.

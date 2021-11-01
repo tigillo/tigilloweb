@@ -3,7 +3,7 @@ title: "Why You Need to Understand Bounce Rate and How To Reduce It?"
 description: "Your website’s bounce rate is one of the most useful web statistics you can get your hands on. This one statistic can tell you whether your online efforts are successful or not. Here’s why."
 active: "insights"
 categories: [ insights, startup, web ]
-image: "/assets/images/posts/google-analytics.png"
+image: "assets/images/posts/google-analytics.png"
 author: "matthew"
 ---
 Your website’s bounce rate is one of the most useful web statistics you can get your hands on. This one statistic can tell you whether your online efforts are successful or not. Here’s why.
