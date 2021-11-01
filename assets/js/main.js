@@ -167,7 +167,7 @@ $("#subscribe-news").submit(function(event) {
 
 $("#contactForm").submit(function(event) {
   let message=$("#message")[0].value;
-  if(message.includes("<") || message.includes(">")) {
+  if(message.includes("<") || message.includes(">") || message.includes("[") || message.includes("]")) {
     event.preventDefault();
     $('#contact-result').text('Sorry, special characters not allowed!');
   } else {
