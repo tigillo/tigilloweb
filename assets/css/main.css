@@ -2462,3 +2462,17 @@ a.next {
 .categories li {
   padding-right: 20px;
 }
+
+#post ul {
+  margin: 10px 30px;
+}
+#post ul li {
+  list-style: disc;
+  font-size: 16px;
+  color: #6d737a;
+  line-height: 26px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+  margin-left: 10px;
+;
+}

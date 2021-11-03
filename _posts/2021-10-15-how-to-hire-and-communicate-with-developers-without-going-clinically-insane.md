@@ -18,63 +18,69 @@ If you’re bootstrapping your online business, I recommend you do that because 
 
 You can then get fancy if the idea has legs.
 
-Classifieds sites, directory sites, coupon sites and ecommerce stores are all technically complex websites that can now be created with a plugin rather than a developer.
+Classifieds sites, ecommerce stores are all technically complex websites but now they can be created with a plugin rather than a developer or also there a bunch of SaaS options where can you can start your business without any development costs.
 
-That said, there are times when you will need to hire a web developer. That could be because you need a specialist feature not available in an off-the-shelf solution or because you’re not using a content management system at all.
+That said, there are times when you will need to hire a web developer. That could be because you need a specialist feature not available in an off-the-shelf solution or because you’re in need a custom software where existing open source software or other software as a service solutions doesn't fit for you.
 
 ### How to choose a developer
-As a web developer myself, let me give you the skinny from this side of the desk.
+As a developer myself, let me give you the skinny from this side of the desk.
 
-1. Choose someone who speaks your language
+#### 1. Choose someone who speaks your language
 I’m not being metaphorical here – if you speak English, make sure your developer is also a native speaker or speaks it exceptionally fluently.
 
-If you’re using Elance, Odesk or another international job board for hiring, it’s particularly important. And here’s why.
+If you’re using Upwork or another international job board for hiring, it’s particularly important. And here’s why.
 
-For your project to stay on track, it’s vital you can understand one another in phone calls and emails. That’s especially true if you’re a non-technical type who prefers concepts explained in plain English rather than punctuated with phrases like, “function call” and “ajax backend”.
+For your project to stay on track, it’s vital you can understand one another in video calls and emails. That’s especially true if you’re a non-technical type who prefers concepts explained in plain English rather than punctuated with phrases like, “Serverless Functions” and “NoSQL Databases”.
 
 If the person you hire doesn’t have sufficiently good language and communication skills to do that, you’ll be stumbling around for unnecessary (and billable) hours.
 
-2. Choose someone in, or near, your timezone
-I’m a Brit living in Italy and most of the clients I’ve had over the years have been in the U.S. Since New York is six hours behind Italy, around half of the normal working day for those clients is “common time”. That makes it easy to swap emails back and forth quickly and to speak on the phone.
+#### 2. Choose someone in, or near, your timezone
+I’m living in London and most of the clients I’ve had over the years have been in the U.S. Since New York is four hours behind London, half of the normal working day for those clients is “common time”. That makes it easy to swap emails back and forth quickly and to speak on a call.
 
 No one yet has complained about the time difference, though many have suggested meetings are held at my house.
 
 The further your hired help is from you, the slower and more difficult the communication usually becomes.
 
-3 . Speak to your developer before hiring them
-These days, just about everyone has access to cheap phone calls or Skype, so it’s reasonable to expect to speak to your web person every once in a while.
+#### 3. Interview your developer before hiring them
+Well, even you are a technical person it would still be very challenging and time consuming process to interview someone. Still there are a few options to make this process smooth.
 
-If they consistently don’t want to do a Skype call with you, they’re either hiding something, are uncommonly shy or have two heads.
+- Check the linkedin profile of the developer. Details and activities on linkedin account shows the developer's skills and areas of interest.
 
-None of these make a good freelancer web developer. Except possibly the two heads, which might be handy if you have one of those dual-screen setups.
+- Have a quick phone screening with the developer to check his/her enthusiasm, attitude and level of communication skills.
 
-4. Choosing a developer is different from choosing a designer
+- Run a technical interview if you already have some other developers or anyone with technical skills in your team or network.
+
+#### 4. Choosing a developer is different from choosing a designer
 It’s hard to judge the quality of a developer’s work, mainly because it’s invisible.
 
-A portfolio of sites they’ve developed is largely useless because they won’t have created the design or the user interface. They do the coding, the programming – the stuff you can’t see.
+A portfolio of applications they’ve developed is largely useless because
 
-Just to make it more complicated, I’ve noticed that clients without a technical background frequently think that features that are actually time-consuming to develop are easy and quick to do, while at the same time believe things that are two minutes work will require a fortnight of programming in a darkened room.
+- These apps mostly created by a team not by a single developer
+- Developer didn't created the design or any visual part such as the user interface.
+- Developer don't have the rights to share the previous work with you due to ownership of intellectual property.
 
-In other words, if you’re a non-techie you have no idea what to look for.
+Still there are options to validate a developers skills, but again if you’re a non-techie you may need to ask for help from anyone with technical skills in your team or network. So the options are:
 
-Unfortunately, there are plenty of unscrupulous people around who’ll take advantage of this, so beware. They’ll charge you the earth for a simple edit.
+- Checking the github profile of the developer. Contribution to open source projects is a big commitment and a developer's contributions tells much more about his/her skills. 
 
-5. Make sure they know the programming language you need
-Needs vary from site to site, but if your site runs on a particular platform – like WordPress, Joomla or Movable Type – you need someone used to working with that platform as a minimum.
+- Requesting a small sized coding assesment which won't take more than 2 hours. - You may need to pay for this code assignment if you are hiring from a freelancer portal. - This will also be a small demo of working together.
+
+#### 5. Make sure they have the technical skills you need
+Needs vary from application to application, but if you already have choosen a tech stack you need someone used to working with that platform as a minimum.
 
 If not, you may end up financing their learning curve.
 
-6. Hire by personal recommendation
+#### 6. Hire by personal recommendation
 If at all possible, hire someone recommended by a trusted contact. It’s the safest way. If no one you know can help, ask for help from people you trust on LinkedIn or Quora.
 
-Just look out for desperate developers recommending themselves via fake accounts. You laugh but it happens.
+### 7. Go hassle free, hire by Tigillo
+Just to make it more complicated, hiring a developer can turn into a sharp pain in the head easily and also software development is usually a team work rather than a single developer where skills are limited on specific areas.
 
-7. Go hassle free, hire by Tigillo
-[Tigillo]({{ site.url }}) helps you to build your projects around motivated and talented individuals for your tech startup for finding the `chemistry` that makes a team able to do the improbable. [Contact us]({{ site.baseurl }}{% link _pages/contact.html %}) for hiring perfect team member for you and save the time and energy needed to grow your digital business!  
+Working with professionals would save both your valuable time and money. [Tigillo]({{ site.url }}) helps you to build your projects around motivated and talented individuals for your tech startup for finding the `chemistry` that makes a team able to do the improbable. [Contact us]({{ site.baseurl }}{% link _pages/contact.html %}) for discovering your needs and hiring perfect team members for you. So you can save the time and energy needed to grow your digital business!  
 
 ### How you can help your developer
 Don’t say things like, “This is probably really easy to…”. It usually isn’t. Just describe what you want and ask for a quote.
 
-Use the phone. Sometimes one sentence in a phone call can prevent 28 emails that veer off in the wrong direction because you said you wanted a menu in Java when what you meant was Javascript (despite the names there’s no similarity at all).
+Use the collaboration tools such as Jira, Slack and communicate directly where possible. Sometimes one sentence in a call can prevent 28 emails that veer off in the wrong direction because you said you wanted a menu in Java when what you meant was Javascript (despite the names there’s no similarity at all). You and developers must work together daily throughout the project so would say `having daily calls is a must`.
 
-Finally, tell your developer what you want, rather than what to do. If you’ve chosen a good one they’ll get it.
+Finally, the Agile Methodologies are the current standard for developing working softwares now. So if you are not familiar with Agile yet, have a research before starting to work with a developer.
