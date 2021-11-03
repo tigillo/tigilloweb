@@ -74,7 +74,7 @@ If not, you may end up financing their learning curve.
 If at all possible, hire someone recommended by a trusted contact. It’s the safest way. If no one you know can help, ask for help from people you trust on LinkedIn or Quora.
 
 #### 7. Go hassle free, hire by Tigillo
-Just to make it more complicated, hiring a developer can turn into a sharp pain in the head easily and also software development is usually a team work rather than a single developer where skills are limited on specific areas.
+Just to make it more complicated, hiring a developer can turn into a sharp pain in the head easily and also software development is usually a team work rather than a single developer one where mostly skills of different areas are required.
 
 Working with professionals would save both your valuable time and money. [Tigillo]({{ site.url }}) helps you to build your projects around motivated and talented individuals for your tech startup for finding the `chemistry` that makes a team able to do the improbable. [Contact us]({{ site.baseurl }}{% link _pages/contact.html %}) for discovering your needs and hiring perfect team members for you. So you can save the time and energy needed to grow your digital business!  
 
