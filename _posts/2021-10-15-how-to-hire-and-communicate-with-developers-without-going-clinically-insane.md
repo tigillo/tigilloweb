@@ -55,9 +55,10 @@ It’s hard to judge the quality of a developer’s work, mainly because it’s 
 
 A portfolio of applications they’ve developed is largely useless because
 
-- These apps mostly created by a team not by a single developer
-- Developer didn't created the design or any visual part such as the user interface.
-- Developer don't have the rights to share the previous work with you due to ownership of intellectual property.
+- These apps are mostly created by a team, not by a single developer
+- The developer didn’t create the design or any visual part such as the user interface.
+- Developers don’t have the rights to share the previous work with you due to ownership of intellectual property.
+
 
 Still there are options to validate a developers skills, but again if you’re a non-techie you may need to ask for help from anyone with technical skills in your team or network. So the options are:
 
