@@ -6,9 +6,7 @@ categories: [ insights, startup, hiring ]
 image: "assets/images/posts/hiring-developers.png"
 author: "amanda"
 ---
-Web Developers Are From Mars, You Are From Venus
-
-If you have a great relationship with your web developer, can communicate flawlessly and always get what you want you first time around, this post isn’t for you. You may as well stop reading now.
+If you have a great relationship with your developer, can communicate flawlessly and always get what you want you first time around, this post isn’t for you. You may as well stop reading now.
 
 OK, so I imagine everyone’s still with me? Then here we go.
 
