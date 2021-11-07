@@ -1,6 +1,6 @@
 ---
 title: "What Is A Tech Startup?"
-description: "A tech startup is a temporary organization that aims to create a unique value proposition using technology and looking for a repeatable and scalable business model to generate revenue. The key point that distinguishes tech startups from non-tech startups is that tech startups develop technological advances on their own that their competitors don't have yet. Once a working business model and repeatable sales model those fit to the market found, the tech startup starts to iterate into a profitable company."
+description: "A tech startup is a temporary organization that aims to create a unique value proposition using technology and looking for a repeatable and scalable business model to generate revenue."
 active: "insights"
 categories: [ insights, startup ]
 image: "assets/images/posts/what-is-a-tech-startup.png"
