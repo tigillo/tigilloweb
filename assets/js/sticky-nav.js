@@ -15,12 +15,6 @@
     new WOW().init();
 
     $(window).on('load', function() {
-       
-        $('body').scrollspy({
-            target: '.navbar-collapse',
-            offset: 195
-        });
-
         $(window).on('scroll', function() {
             if ($(window).scrollTop() > 100) {
                 $('.fixed-top').addClass('menu-bg');

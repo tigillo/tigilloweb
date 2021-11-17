@@ -4,20 +4,8 @@
   
   /* Page Loader active
   ========================================================*/
-  $('#preloader').fadeOut();
-
-  /* 
-  CounterUp
-  ========================================================================== */
-  $('.counter').counterUp({
-    time: 500
-  });  
+  $('#preloader').fadeOut();  
   
-  /* 
-  MixitUp
-  ========================================================================== */
-  $('#portfolio').mixItUp();
-
   /* 
    Screens Crouserl
    ========================================================================== */
@@ -48,24 +36,6 @@
       itemsTabletSmall: [480,2],
       itemsMobile : [479,1],
     });
-
-  /* Testimonials Carousel 
-  ========================================================*/
-  var owl = $("#testimonials");
-    owl.owlCarousel({
-      navigation: false,
-      pagination: true,
-      slideSpeed: 1000,
-      stopOnHover: true,
-      autoPlay: true,
-      items: 1,
-      itemsDesktop : [1199,1],
-      itemsDesktopSmall : [980,1],
-      itemsTablet: [768,1],
-      itemsTablet: [767,1],
-      itemsTabletSmall: [480,1],
-      itemsMobile : [479,1],
-    });   
 
   /* 
    Touch Owl Carousel
@@ -102,18 +72,6 @@
         itemsMobile: [479, 1]
       });
 
-
-  /* 
- VIDEO POP-UP
- ========================================================================== */
-  $('.video-popup').magnificPopup({
-      disableOn: 700,
-      type: 'iframe',
-      mainClass: 'mfp-fade',
-      removalDelay: 160,
-      preloader: false,
-      fixedContentPos: false,
-  });
 
   /* 
    Back Top Link
