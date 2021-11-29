@@ -1786,7 +1786,7 @@ button:focus {
 #carousel-area .carousel-0 {
   background: url('/assets/images/slider/bespoke-software-development.jpg');
   height: 700px;
-  background-position: left;
+  background-position: center;
 }
 
 #carousel-area .carousel-1 {
