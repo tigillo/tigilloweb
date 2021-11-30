@@ -179,8 +179,8 @@
   .navbar {
     padding: 0;
   }
-  .bg-inverse {
-    background: #191c1e;
+  .bg-solid {
+    background: #6BD6DE;
   }
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
@@ -299,8 +299,8 @@
   .navbar {
     padding: 0;
   }
-  .bg-inverse {
-    background: #191c1e;
+  .bg-solid {
+    background: #6BD6DE;
   }
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {

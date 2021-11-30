@@ -538,16 +538,10 @@ button:focus {
 /* ==========================================================================
    Navbar Style
    ========================================================================== */
-.logo-menu a {
-  font-size: 20px;
-  color: #fff;
-}
-
 .menu-bg {
   background-color: #6BD6DE;
   box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
   z-index: 9999;
-  padding: 8px;
 }
 
 .menu-bg .menu-button {
@@ -559,21 +553,40 @@ button:focus {
   color: #4747ff;
 }
 
-.menu-bg .logo-menu a {
-  color: #4747ff;
-}
+@media (min-width: 767px) {
+  .menu-bg {
+    padding: 8px !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
 
-.menu-bg .navbar-nav .nav-link {
-  color: #fff !important;
+  .menu-bg .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .menu-bg .navbar-brand img {
+   height: 3rem;
+  }
+
+  .menu-bg .navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 0.9rem !important;
+  }
 }
 
 .menu-bg .navbar-nav .active {
   color: #4747ff !important;
 }
 
+.navbar {
+  padding: 2rem 1rem;
+}
+
 .navbar-expand-md .navbar-nav .nav-link {
   color: #fff;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 600;
   padding: 5px 0px;
   margin-left: 30px;
@@ -605,9 +618,13 @@ button:focus {
 
 .navbar-brand {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #fff;
+}
+
+.navbar-brand img {
+ height: 3.75rem;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:focus,
@@ -2248,7 +2265,7 @@ textarea {
 }
 
 footer .footer-Content {
-  background-color: #4747ff;
+  background-color: #191c1e;
   padding: 60px 0 0px;
   color: #546E7A;
 }
@@ -2291,7 +2308,7 @@ footer .menu li a {
 }
 
 footer .menu li a:hover {
-  color: #f1f1f1;
+  color: #fece00;
 }
 
 .footer-social {

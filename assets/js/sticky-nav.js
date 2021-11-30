@@ -8,6 +8,13 @@
             $('.header-top-area').removeClass('menu-bg');
         }
     });
+    $(window).on('load', function() {
+        if ($(window).scrollTop() > 100) {
+            $('.header-top-area').addClass('menu-bg');
+        } else {
+            $('.header-top-area').removeClass('menu-bg');
+        }
+    });
   /* 
    One Page Navigation & wow js
    ========================================================================== */
@@ -24,3 +31,12 @@
         });
 
     });
+
+    $('.navbar-toggler').on('click', function() {
+      console.log($('.navbar-toggler').attr("aria-expanded"))
+      if($('.navbar-toggler').attr("aria-expanded") === "false") {
+        $('.fixed-top').addClass('bg-solid');
+      } else if ($(window).scrollTop() <= 100){
+        $('.fixed-top').removeClass('bg-solid');
+      }
+    })
