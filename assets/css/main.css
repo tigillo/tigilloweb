@@ -788,7 +788,6 @@ button:focus {
 #about .about-content {
   height: 100%;
   width: 100%;
-  display: table;
 }
 
 #about .about-content > div {
@@ -810,6 +809,8 @@ button:focus {
 #about .about-content p {
   font-size: 16px;
   margin-bottom: 10px;
+  text-align: justify;
+  text-indent: 2em;
 }
 
 #about .about-content .btn {
@@ -2068,20 +2069,20 @@ textarea {
   margin-bottom: 0;
 }
 
-#contact {
+#contact-form {
   background: #ffffff;
   padding-bottom: 80px;
   position: relative;
   text-align: center;
 }
 
-#contact h2 {
+#contact-form h2 {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-#contact .contact-block {
+#contact-form .contact-block {
   background: #ffffff;
   overflow: hidden;
   padding: 30px;
