@@ -2480,6 +2480,7 @@ footer .menu li a:hover {
 .copyright p {
   margin-bottom: 0;
   color: #fff;
+  font-size: 12px;
 }
 
 .copyright p a {
@@ -2487,7 +2488,7 @@ footer .menu li a:hover {
 }
 
 .copyright p a:hover {
-  color: #f1f1f1;
+  color: #fece00;
 }
 
 .copyright .nav-inline .nav-link {
