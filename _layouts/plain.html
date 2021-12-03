@@ -28,40 +28,8 @@
   </head>
 
   <body>
-    <header id="home" class="fixed-header">
-      <nav class="navbar navbar-expand-md fixed-top scrolling-navbar menu-bg">
-        <div class="container">
-          <a href="/" class="navbar-brand"><img src="{{site.url}}/{{site.logo}}" alt="{{site.name}}"> {{site.shortname}}</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="lni-menu"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link{% if page.active == "home" %} active{% endif %}" href="{{site.url}}/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link{% if page.active == "about" %} active{% endif %}" href="{{site.url}}/about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link{% if page.active == "services" %} active{% endif %}" href="{{site.url}}/services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link{% if page.active == "clients" %} active{% endif %}" href="{{site.url}}/clients.html">Clients</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link{% if page.active == "insights" %} active{% endif %}" href="{{site.url}}/insights.html">Insights</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link{% if page.active == "contact" %} active{% endif %}" href="{{site.url}}/contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="tel:020-3151-7051"><i class="icon ion-md-call"></i> 020 3151 7051</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <header id="home" class="fixed-header">      
+      {% include nav.html %}
     </header>
 
     {{ content }}

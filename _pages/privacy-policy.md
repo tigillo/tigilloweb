@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-permalink: "/privacy-policy.html"
+permalink: "/privacy-policy"
 image: "assets/images/digital-transformation.jpg"
 ---
 

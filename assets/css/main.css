@@ -863,6 +863,62 @@ button:focus {
   background: #ffffff;
 }
 
+
+.client-content {
+  background: #f6fbfd;
+}
+
+.client-content .row {
+  min-height: 28rem;
+}
+
+.single-client {
+  background: #fff;
+  margin: 15px 10px;
+  padding: 40px 50px;
+  position: relative;
+  border-radius: 3px;
+  box-shadow: 0px 0px 16px rgba(131, 131, 131, 0.17);
+  transition: all 0.3s ease 0s;
+}
+
+.single-client i {
+  font-size: 3rem;
+  background-color: #4747ff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.single-client h4 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  height: 4rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.single-client p {
+  font-size: 0.9rem;
+  min-height: 10rem;
+}
+
+.single-client:hover {
+  box-shadow: 0px 0px 24px rgba(131, 131, 131, 0.37);
+  transition: all 0.3s ease 0s;
+}
+
+.single-client .single-client-image {
+  width: 100%;
+  line-height: 90px;
+  padding-bottom: 15px; 
+}
+
+.single-client .single-client-image img{
+  width: 80%;
+}
+
 #clients .client-item-wrapper {
   text-align: center;
   line-height: 70px;

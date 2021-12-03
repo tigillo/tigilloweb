@@ -1,0 +1,31 @@
+      <div class="container">
+        <div class="row space-100">
+          <div class="col-lg-7 col-md-12 col-xs-12">
+            <div class="contents">
+              <h2 class="head-title wow fadeInLeft">{{page.title}}</h2>
+              <p class="wow fadeInUp">{{page.description}}</p>
+              {% if page.metadate != "hide" and page.author %}
+              <p class="wow fadeInRight"><i>{% unless page.metadate == "hide" %} 
+                    Posted on {{ page.date | date: '%B %d, %Y' }} 
+                {% endunless %}
+                {% if page.author %}
+                     by <strong>{{page.author | capitalize}}</strong>
+                {% endif %}
+              </i></p>
+              {% endif %}
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 col-xs-12">
+            {% if page.video %}
+            {% elsif page.svg %}
+            <div class="intro-img wow fadeInRight">
+              <object type="image/svg+xml" data="{{site.url}}/{{page.svg}}" alt="{{page.title}}"></object>
+            </div>
+            {% elsif page.image %}
+            <div class="intro-img wow fadeInRight">
+              <img src="{{site.url}}/{{page.image}}" alt="{{page.title}}">
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
