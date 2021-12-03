@@ -9,7 +9,7 @@ favicon: 'assets/images/tigillo-tech-startup-consultancy-favicon.png'
 disqus: 'tigillo'
 email: 'contact@tigillo.com'
 
-include: ["_pages"]
+include: ["_pages","_services"]
 permalink: /:categories/:title/
 
 # Plugins
@@ -27,6 +27,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
+      active: insights
 
   # all pages
   - scope:
@@ -34,6 +35,13 @@ defaults:
     values:
       layout: page
 
+  # all services
+  - scope:
+      path: "_services"
+    values:
+      layout: intro
+      social: hide
+      active: services
 # Syntax
 markdown: kramdown
 highlighter: rouge

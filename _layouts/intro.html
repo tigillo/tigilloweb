@@ -24,12 +24,13 @@
     <link rel="stylesheet" href="{{site.url}}/assets/css/main.css">    
     <link rel="stylesheet" href="{{site.url}}/assets/css/responsive.css">
     <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
 
   </head>
 
   <body>
     <header id="home" class="hero-area-2">
-      <div class="overlay"></div>
+      <div class="overlay {{ page.active }}"></div>
       <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
         <div class="container">
           <a href="/" class="navbar-brand"><img src="{{site.url}}/{{site.logo}}" alt="{{site.name}}"> {{site.shortname}}</a>
@@ -51,7 +52,7 @@
                 <a class="nav-link{% if page.active == "clients" %} active{% endif %}" href="{{site.url}}/clients.html">Clients</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link{% if page.active == "insights" or page.categories[0] == "insights" %} active{% endif %}" href="{{site.url}}/insights.html">Insights</a>
+                <a class="nav-link{% if page.active == "insights" %} active{% endif %}" href="{{site.url}}/insights.html">Insights</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link{% if page.active == "contact" %} active{% endif %}" href="{{site.url}}/contact.html">Contact</a>
@@ -67,21 +68,30 @@
         <div class="row space-100">
           <div class="col-lg-7 col-md-12 col-xs-12">
             <div class="contents">
-              <h2 class="head-title">{{page.title}}</h2>
-              <p>{{page.description}}</p>
-              <p><i>{% unless page.metadate == "hide" %} 
-                            Posted on {{ page.date | date: '%B %d, %Y' }} 
-                        {% endunless %}
-                        {% if page.author %}
-                             by <strong>{{page.author | capitalize}}</strong>
-                        {% endif %}
+              <h2 class="head-title wow fadeInLeft">{{page.title}}</h2>
+              <p class="wow fadeInUp">{{page.description}}</p>
+              {% if page.metadate != "hide" and page.author %}
+              <p class="wow fadeInRight"><i>{% unless page.metadate == "hide" %} 
+                    Posted on {{ page.date | date: '%B %d, %Y' }} 
+                {% endunless %}
+                {% if page.author %}
+                     by <strong>{{page.author | capitalize}}</strong>
+                {% endif %}
               </i></p>
+              {% endif %}
             </div>
           </div>
           <div class="col-lg-5 col-md-12 col-xs-12">
-            <div class="intro-img">
+            {% if page.video %}
+            {% elsif page.svg %}
+            <div class="intro-img wow fadeInRight">
+              <object type="image/svg+xml" data="{{site.url}}/{{page.svg}}" alt="{{page.title}}"></object>
+            </div>
+            {% elsif page.image %}
+            <div class="intro-img wow fadeInRight">
               <img src="{{site.url}}/{{page.image}}" alt="{{page.title}}">
             </div>
+            {% endif %}
           </div>
         </div>
       </div>
@@ -109,6 +119,7 @@
     <script src="{{site.url}}/assets/js/jquery.magnific-popup.min.js"></script>
     <script src="{{site.url}}/assets/js/sticky-nav.js"></script>
     <script src="{{site.url}}/assets/js/main.js"></script>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
     {% include addthis-widget.html %}
     {% include gtag.html %}

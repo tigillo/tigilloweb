@@ -150,11 +150,15 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 
-.section-header .section-title {
+.section-title {
   font-size: 30px;
   margin-bottom: 20px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
+}
+
+.section-button {
+  margin-top: 2rem;
 }
 
 .sub-section {
@@ -195,6 +199,18 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-common:hover {
+  color: #fff;
+  box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+}
+
+.btn-navy {
+  color: #fff;
+  background-color: #4747ff;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-navy:hover {
   color: #fff;
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
 }
@@ -738,8 +754,18 @@ button:focus {
   background-color: #ec6165;
 }
 
+.hero-area-2 .services {
+  background: url('/assets/images/services/header-background.svg');
+  background-position: center;
+}
+
+.hero-area-2 .insights {
+  background: url('/assets/images/posts/header-background.svg');
+  background-position: center;
+}
+
 .hero-area-2 .contents {
-  padding: 160px 0 140px;
+  padding: 160px 0 40px;
 }
 
 .hero-area-2 .contents h2 {
@@ -768,15 +794,24 @@ button:focus {
 }
 
 .hero-area-2 .intro-img {
-  padding: 180px 0 30px;
+  padding: 170px 0 30px 60px;
+  vertical-align: bottom;
+  text-align: right;
+  height: 100%;
 }
 
 .hero-area-2 .intro-img img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-  max-height: 365px;
+  display: inline;
+  width: 100%;
+  max-height: 350px;
 }
+
+.hero-area-2 .intro-img object {
+  display: inline;
+  width: 100%;
+  max-height: 350px;
+}
+
 
 /* ==========================================================================
    About 
@@ -972,6 +1007,10 @@ button:focus {
 }
 
 /* Services Item */
+.services .row {
+  margin-bottom: 15px;
+}
+
 .services-item {
   padding: 15px;
   background: #fff;
@@ -1012,10 +1051,14 @@ button:focus {
   background: #f6fbfd;
 }
 
+.feature-content .row {
+  min-height: 28rem;
+}
+
 .single-feature {
   background: #fff;
-  margin: 15px 0;
-  padding: 60px 50px;
+  margin: 15px 10px;
+  padding: 40px 50px;
   position: relative;
   border-radius: 3px;
   box-shadow: 0px 0px 16px rgba(131, 131, 131, 0.17);
@@ -1023,27 +1066,50 @@ button:focus {
 }
 
 .single-feature i {
-  font-size: 42px;
+  font-size: 3rem;
   background-color: #4747ff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 30px;
 }
 
 .single-feature h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  height: 4rem;
   font-weight: 400;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   margin-top: 0;
   text-transform: capitalize;
 }
 
 .single-feature p {
-  font-size: 14px;
+  font-size: 0.9rem;
+  height: 6.5rem;
 }
 
 .single-feature:hover {
-  box-shadow: 0px 0px 16px rgba(131, 131, 131, 0.35);
+  margin: 15px -5px;
+  margin-top: -2rem;
+  box-shadow: 0px 0px 24px rgba(131, 131, 131, 0.9);
+  background: #4747ff;
+  padding: 40px 65px 75px 65px;
+  transition: all 0.3s ease 0s;
+}
+
+.single-feature:hover p {
+  color: #eeecff;
+  font-weight: 600;
+}
+
+.single-feature:hover h4 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.single-feature:hover i {
+  font-size: 5.3rem;
+  background-color: #fece00;
+  transition: all 0.6s ease 0s;
 }
 
 .single-feature .single-feature-image {
@@ -1051,6 +1117,7 @@ button:focus {
   line-height: 90px;
   padding-bottom: 15px; 
 }
+
 .single-feature .single-feature-image img{
   width: 80%;
 }
