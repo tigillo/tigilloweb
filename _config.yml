@@ -42,6 +42,11 @@ defaults:
       layout: intro
       social: hide
       active: services
+
+  - scope:
+      path: google51337d0bb842e728.html
+    values:
+      sitemap: false
 # Syntax
 markdown: kramdown
 highlighter: rouge
