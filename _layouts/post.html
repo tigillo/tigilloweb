@@ -6,7 +6,7 @@ layout: intro
     <div class="container">
       <div class="row justify-content-around">
         <div class="col-lg-12 col-md-12 col-xs-12">
-          <h3>{{ page.title }}</h3>
+          <h2>{{ page.title }}</h2>
           {{ content }}
           {% for category in page.categories %}
             <a class="btn btn-sm btn-primary mt-2" href="{{site.baseurl}}/insights.html#{{ category | downcase }}">

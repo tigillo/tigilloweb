@@ -1,4 +1,4 @@
----
+≈≈---
 title: "9 Ways To Find Time To Start an Online Business"
 description: "Nobody has enough time for everything these days. To be honest, I don’t have enough time to write this post. There’s a ton of marketing I should be doing, a series of ebooks to plan and somewhere out there – you can probably hear the wailing – there’s a cat that thinks the food bowl is empty."
 active: "insights"
