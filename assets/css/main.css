@@ -1895,6 +1895,14 @@ button:focus {
   padding-bottom: 0;
 }
 
+#carousel-area .carousel-item .carousel-caption h1 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
 #carousel-area .carousel-item .carousel-caption h2 {
   font-size: 42px;
   font-weight: 600;
