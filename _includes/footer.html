@@ -64,11 +64,14 @@
                 <div class="col-md-12">
                   <div class="site-info float-left">
                     <p>
-                      <a href="{{site.url}}{{site.baseurl}}/">
+                      <a href="{{site.url}}">
                           &copy; {{site.companyname}}. 
                       </a> | 
-                      <a href="{{site.url}}{{site.baseurl}}/privacy-policy">
+                      <a href="{{site.url}}{% link _pages/privacy-policy.md %}">
                           Privacy Policy
+                      </a> | 
+                      <a href="{{site.url}}{% link _pages/modern-slavery-statement.md %}">
+                          Modern Slavery Statement
                       </a>
                     </p>
                   </div>
