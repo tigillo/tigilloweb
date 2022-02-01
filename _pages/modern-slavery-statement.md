@@ -38,12 +38,12 @@ Our supply chains are limited and we procure goods and services from a restricte
 #### Our policies in relation to the Modern Slavery Act 2015
 The following policies are available to all staff through the *{{site.companyname}}* intranet:
 
-Code of conduct
-Ethics policy
-Whistleblowing policy
-Bullying and harassment policy
-Diversity and inclusion policy
-Recruitment and selection policy
+- Code of conduct
+- Ethics policy
+- Whistleblowing policy
+- Bullying and harassment policy
+- Diversity and inclusion policy
+- Recruitment and selection policy
 
 #### Embedding the principles
 
