@@ -132,3 +132,10 @@ $("#contactForm").submit(function(event) {
     $('#contact-result').text('Thank you for submiting your response!');
   }
 });
+
+$(".dropdown").hover(function(event) {
+      $(".service-menu").css("display", "block");
+    });
+$(".nav-link").hover(function(event) {
+      $(".service-menu").css("display", "none");
+    });

@@ -9,7 +9,7 @@ favicon: 'assets/images/tigillo-tech-startup-consultancy-favicon.png'
 disqus: 'tigillo'
 email: 'contact@tigillo.com'
 
-include: ["_pages","_services"]
+include: ["_pages","_services","_software-development","_software-testing","_software-operations","_it-staffing","_startup-consulting","_enterprise-consulting"]
 permalink: /:categories/:title/
 
 # Plugins
@@ -38,6 +38,54 @@ defaults:
   # all services
   - scope:
       path: "_services"
+    values:
+      layout: intro
+      social: hide
+      active: services
+
+  # all software development services
+  - scope:
+      path: "_software-development"
+    values:
+      layout: intro
+      social: hide
+      active: services
+
+  # all software testing services
+  - scope:
+      path: "_software-testing"
+    values:
+      layout: intro
+      social: hide
+      active: services
+
+  # all software operations services
+  - scope:
+      path: "_software-operations"
+    values:
+      layout: intro
+      social: hide
+      active: services
+
+  # all it staffing services
+  - scope:
+      path: "_it-staffing"
+    values:
+      layout: intro
+      social: hide
+      active: services
+
+  # all startup consulting services
+  - scope:
+      path: "_startup-consulting"
+    values:
+      layout: intro
+      social: hide
+      active: services
+
+  # all enterprise consulting services
+  - scope:
+      path: "_enterprise-consulting"
     values:
       layout: intro
       social: hide
