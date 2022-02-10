@@ -2681,11 +2681,11 @@ a.next {
 
 @media screen and (min-width: 993px) {
   .menu-bg .navbar-nav div.dropdown .nav-link:first-child {
-    font-size: 1em !important;
+    font-size: 0.9rem !important;
     padding: 10px!important;
   }
   div.dropdown .nav-link:first-child {
-    font-size: 1em !important;
+    font-size: 1rem !important;
     padding: 10px!important;
   }
   div.dropdown:hover .nav-link:first-child, div.dropdown:hover .nav-link:first-child:hover, div.dropdown:hover .nav-link:first-child:active {
