@@ -231,7 +231,6 @@
   #carousel-area .carousel-item .carousel-caption .btn {
     margin: 8px 5px;
     padding: 7px 16px;
-    text-transform: capitalize;
     font-size: 14px;
   }
   .section-header .section-title {
@@ -380,8 +379,11 @@
   #carousel-area .carousel-item .carousel-caption .btn {
     margin: 8px 5px;
     padding: 7px 16px;
-    text-transform: capitalize;
     font-size: 14px;
+  }
+
+  #carousel-area .carousel-item .carousel-caption .btn:nth-of-type(2) {
+    display: none;
   }
   #carousel-area .carousel-control-next i, #carousel-area .carousel-control-prev i {
     background: transparent !important;
