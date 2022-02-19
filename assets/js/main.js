@@ -139,3 +139,10 @@ $(".dropdown").hover(function(event) {
 $(".nav-link").hover(function(event) {
       $(".service-menu").css("display", "none");
     });
+
+
+$( document ).ready(function() {
+  if(window.location.search.toString().indexOf("linkedin.com") != -1 ) {
+    Calendly.initPopupWidget({url: 'https://calendly.com/tigillo/free-discovery'});return false;
+  }
+});
