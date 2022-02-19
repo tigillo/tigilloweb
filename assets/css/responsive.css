@@ -34,12 +34,19 @@
     font-size: 13px;
     margin-left: 15px;
   }
+  #carousel-area .carousel-item .carousel-caption h1 {
+    font-size: 22px;
+  }
+  #carousel-area .carousel-agency .carousel-caption h1 {
+    font-size: 36px;
+    line-height: 52px;
+  }
   #carousel-area .carousel-item .carousel-caption h2 {
     font-size: 22px;
   }
   #carousel-area .carousel-agency .carousel-caption h2 {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 36px;
+    line-height: 52px;
   }
   .text-wrapper h3 {
     font-size: 24px;
@@ -205,11 +212,18 @@
     margin-top: 20px;
   }
   #carousel-area .carousel-item .carousel-caption {
-    top: 30%;
+    top: 28%;
+  }
+  #carousel-area .carousel-item .carousel-caption h1 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  #carousel-area .carousel-agency .carousel-caption h1 {
+    line-height: 30px;
   }
   #carousel-area .carousel-item .carousel-caption h2 {
     font-size: 22px;
-    line-height: 32px;
+    line-height: 36px;
   }
   #carousel-area .carousel-agency .carousel-caption h2 {
     line-height: 30px;
@@ -344,11 +358,24 @@
     padding: 0;
   }
   #carousel-area .carousel-item .carousel-caption {
-    top: 30%;
+    top: 24%;
+  }
+  #carousel-area .carousel-item .carousel-caption h1 {
+    font-size: 22px;
+    line-height: 32px;
   }
   #carousel-area .carousel-item .carousel-caption h2 {
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #carousel-area .carousel-item .carousel-caption p {
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
   }
   #carousel-area .carousel-item .carousel-caption .btn {
     margin: 8px 5px;
