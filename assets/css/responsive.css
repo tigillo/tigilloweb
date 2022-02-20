@@ -1,3 +1,9 @@
+@media (min-width: 768px) and (max-width: 1228px) {
+  .navbar-expand-md .navbar-nav .nav-link span {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .section {
     padding: 60px 0 45px;

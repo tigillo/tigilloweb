@@ -80,7 +80,10 @@
                 <a class="nav-link{% if page.active == "contact" %} active{% endif %}" href="{{site.url}}{% link _pages/contact.html %}">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tel:020-3151-7051"><i class="icon ion-md-call"></i> 020 3151 7051</a>
+                <a class="nav-link" href="" title="Book Free Discovery Meeting" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/tigillo/free-discovery'});return false;"><i class="icon ion-md-calendar"></i> <span>Book A Meeting</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" title="Call Us" href="tel:020-3151-7051"><i class="icon ion-md-call"></i> <span>020 3151 7051</span></a>
               </li>
             </ul>
           </div>
