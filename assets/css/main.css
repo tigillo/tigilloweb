@@ -2679,7 +2679,7 @@ a.next {
   margin-left: 10px;
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 1025px) {
   .menu-bg .navbar-nav div.dropdown .nav-link:first-child {
     font-size: 0.9rem !important;
     padding: 10px!important;
@@ -2781,7 +2781,7 @@ a.next {
 
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   div.dropdown:hover div.dropdown-menu {
     display: none;
   }
