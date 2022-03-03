@@ -7,7 +7,7 @@
               </a>
             </div>
             <div class="blog-item-text">
-              <h3><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h3>
+              <h3><a href="{{site.url}}{{post.url}}">{{ post.title }}</a></h3>
               <div class="author">
                 {% if post.author %}<span class="name">Posted by {{ post.author | capitalize }}</span>{% endif %}
                 {% unless post.metadate == "hide" %}<span class="date float-right">{{ post.date | date: '%B %d, %Y' }}</span>{% endunless %}
