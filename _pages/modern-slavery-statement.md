@@ -4,7 +4,7 @@ permalink: "/modern-slavery-statement/"
 image: "assets/images/digital-transformation.jpg"
 ---
 
-### 2021 to 2022
+### 2022 to 2023
 
 Here are the steps *{{site.companyname}}* has taken and continues to take to understand and minimise the potential risk of modern slavery in its business and supply chains.
 
@@ -61,6 +61,6 @@ We will continue to embed the principles through:
 
 - ensuring that staff involved in buying or procurement and the recruitment and deployment of workers receive training on modern slavery and ethical employment practices
 
-This statement has been approved by Mehmet Ali Aydin, *{{site.companyname}}* Director, for the financial year ending 31 March 2022.
+This statement has been approved by Mehmet Ali Aydin, *{{site.companyname}}* Director, for the financial year ending 31 March 2023.
 
 This statement will be reviewed and updated every year.
