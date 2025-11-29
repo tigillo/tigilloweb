@@ -123,6 +123,7 @@ $("#subscribe-news").submit(function(event) {
   $('#subscribe-result').text('Thank you for subscribing!');
 });
 
+/*
 $("#contactForm").submit(function(event) {
   let message=$("#message")[0].value;
   if(message.includes("<") || message.includes(">") || message.includes("[") || message.includes("]")) {
@@ -132,6 +133,7 @@ $("#contactForm").submit(function(event) {
     $('#contact-result').text('Thank you for submiting your response!');
   }
 });
+*/
 
 $(".dropdown").hover(function(event) {
       $(".service-menu").css("display", "block");
