@@ -123,17 +123,39 @@ $("#subscribe-news").submit(function(event) {
   $('#subscribe-result').text('Thank you for subscribing!');
 });
 
-/*
+
 $("#contactForm").submit(function(event) {
-  let message=$("#message")[0].value;
-  if(message.includes("<") || message.includes(">") || message.includes("[") || message.includes("]")) {
+    // 1. Stop the browser from redirecting to Formspree
     event.preventDefault();
-    $('#contact-result').text('Sorry, special characters not allowed!');
-  } else {
-    $('#contact-result').text('Thank you for submiting your response!');
-  }
+
+    var $form = $(this);
+    var $result = $('#contact-result');
+    var $submitButton = $form.find('button[type="submit"]');
+
+    $submitButton.prop('disabled', true).text('Sending...');
+
+    $.ajax({
+        url: $form.attr('action'),
+        method: 'POST',
+        data: $form.serialize(),
+        dataType: 'json',
+        headers: {
+            'Accept': 'application/json'
+        },
+        success: function(response) {
+            $result.text('Thank you for submitting your response!');
+            $result.css('color', 'green');
+            $form[0].reset();
+            $submitButton.text('Sent');
+        },
+        error: function(err) {
+            $result.text('Oops! There was a problem sending your form. Please check your entries and try again.');
+            $result.css('color', 'red');
+            $submitButton.prop('disabled', false).text('Send Message');
+        }
+    });
 });
-*/
+
 
 $(".dropdown").hover(function(event) {
       $(".service-menu").css("display", "block");
