@@ -128,6 +128,15 @@ $("#contactForm").submit(function(event) {
     // 1. Stop the browser from redirecting to Formspree
     event.preventDefault();
 
+    var honeypot = $(this).find('input[name="_gotcha"]').val();
+    
+    if (honeypot && honeypot.length > 0) {
+        console.log("Bot detected. Request blocked locally.");
+        // Pretend it worked so the bot goes away
+        $('#contact-result').text('Thank you!').css('color', 'green');
+        return; // STOP. Do not call Formspree.
+    }
+
     var $form = $(this);
     var $result = $('#contact-result');
     var $submitButton = $form.find('button[type="submit"]');
